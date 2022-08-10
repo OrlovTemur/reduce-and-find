@@ -73,7 +73,7 @@ let min = Math.min(...budget_arr)
 console.log(budget_arr)
 
 
-max = bank.find(item => item.budget == max * 100 / bank.item.tax)
+max = bank.find(item => item.budget == max * 100 / 12)
 min = bank.find(item => item.budget == min * 100 / 12)
 
 console.log(max,min)
